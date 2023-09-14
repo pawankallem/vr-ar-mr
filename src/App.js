@@ -9,7 +9,7 @@ export default function App() {
   useEffect(() => {
     setTimeout(() => {
       setPage(2);
-    },9000)
+    },8200)
   })
   return (
     <div className="App">
