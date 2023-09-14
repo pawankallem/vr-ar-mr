@@ -7,21 +7,6 @@ export const Page1 = () => {
   const [text, setText] = useState("INHALE");
   const [timer,setTimer] = useState(3);
 
-  // const breathTimer = [
-  //   // {
-  //   //   title: "INHALE",
-  //   //   subTitle: 3,
-  //   // },
-  //   {
-  //     title: "HOLD",
-  //     subTitle: 2,
-  //   },
-  //   {
-  //     title: "EXHALE",
-  //     subTitle: 3,
-  //   },
-  // ];
-
   useEffect(() => {
     setTimeout(() => {
       setText("HOLD");
