@@ -14,9 +14,9 @@ export default function App() {
   return (
     <div className="App">
       {
-        page === 1 ? <Page1/> : <Page2/>
+        // page === 1 ? <Page1/> : <Page2/>
       }
-      {/* <Page1 /> */}
+      <Page1 />
       {/* <Page2 /> */}
     </div>
   );
